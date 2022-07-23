@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Inspiration&family=Montserrat:ital,wght@0,200;0,300;0,400;1,700&family=Poppins:wght@300;500&family=Roboto:wght@100&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main-container{
+    height: 100%;
+    width:100%;
+    background-color: rgb(255, 255, 254);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;    
+
+   
+
+}
+
+.item{
+    height:120px;
+    width:90%;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: rgb(254, 253, 253)  ;
+    box-shadow: 5px 5px 4px 2px rgb(161, 157, 157);
+    border-radius: 5px;
+    margin: 25px;
+    align-items: center; 
+    border-left: .6px solid rgba(161, 157, 157 ,0.2);
+    border-top: .6px solid rgba(161, 157, 157 ,0.2);   
+}
+
+.change-pro{
+    height: 80px;
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: center;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    
+}
+
+h4{
+    font-weight: 400;
+}
+
+button{
+    height: 1.4rem;
+    width: 80px;
+    background-color:rgb(96, 153, 244);
+    border: none;
+    box-shadow: 2px 2px 1px 2px rgb(177, 177, 177);
+    border-radius: 5px;
+
+}
+
+button:hover{
+    color: rgb(201, 33, 33);
+    cursor: pointer;
+    background-color: aliceblue;
+    box-shadow: 2px 2px 1px 2px rgb(235, 150, 150);
+}
+
+.details{
+    height: 70vh;
+    width: 80vw;
+    border-left: .6px solid rgba(161, 157, 157 ,0.2);
+    border-top: .6px solid rgba(161, 157, 157 ,0.2);
+    background-color:rgb(250, 249, 246) ;
+    border-radius: 10px;
+    box-shadow: 2px  2px 1.4px 1px rgb(161, 157, 157) ;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;;
+    
+}
+
+.top{
+    height: 100px;
+    width: 100%;
+}
+
+.bottom-part{
+    height: 280px;
+    width: 80%;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.left{
+    height: 220px;
+    width: 45%;
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.right{
+    height: 270px;
+    width: 45%;
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 10px;
+}
+
+.details .left span{
+    height: 50px;
+    width: 100%;
+    margin-left: 2px;
+    font-size: 15px;
+    font-weight: 350;
+}
+.details .right span{
+    height: 50px;
+    width: 100%;
+    margin-left: 2px;
+}
+
+.footer{
+    height: 40px;
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 50px;    
+}
+
+.in-num{
+    height: 15px;
+    width: 15px;
+    display: flex;
+    justify-content: center;
+    background-color: orange;
+    background-color:rgb(96, 153, 244);
+}
